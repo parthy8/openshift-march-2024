@@ -15,7 +15,7 @@ spec:
         app: hello
     spec:
       containers:
-      - image: azhi.jfrog.io/parthy-docker/hello-microservice:1.0
+      - image: azhi.jfrog.io/parthy-docker/hello-microservices:1.0
         name: hello-microservice
       imagePullSecrets:
       - name: private-jfrog-image-registry 
